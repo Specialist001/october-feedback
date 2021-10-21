@@ -1,0 +1,25 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: specialist.feedback::lang.feedback.name
+        searchable: true
+    email:
+        label: specialist.feedback::lang.feedback.email
+        searchable: true
+    message:
+        label: specialist.feedback::lang.feedback.message
+        searchable: true
+    channel:
+        label: specialist.feedback::lang.channel.one
+        relation: channel
+        select: name
+    created_at:
+        label: specialist.feedback::lang.feedback.created_at
+        searchable: true
+        type: datetime

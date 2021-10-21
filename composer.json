@@ -1,0 +1,12 @@
+{
+    "name": "specialist/october-feedback",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bobur Otajonov",
+            "email": "darking-uz@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

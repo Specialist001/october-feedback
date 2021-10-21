@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: specialist.feedback::lang.feedback.one
+
+# Model Form Field configuration
+form: $/specialist/feedback/models/feedback/fields.yaml
+
+# Model Class name
+modelClass: Specialist\Feedback\Models\Feedback
+
+# Default redirect location
+defaultRedirect: specialist/feedback/feedbacks
+
+# Create page
+create:
+    title: Create feedback
+    redirect: specialist/feedback/feedbacks/update/:id
+    redirectClose: specialist/feedback/feedbacks
+
+# Update page
+update:
+    title: Edit feedback
+    redirect: specialist/feedback/feedbacks
+    redirectClose: specialist/feedback/feedbacks
+
+# Preview page
+preview:
+    title: specialist.feedback::lang.feedback.action.preview

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: specialist.feedback::lang.channel.one
+
+# Model Form Field configuration
+form: $/specialist/feedback/models/channel/fields.yaml
+
+# Model Class name
+modelClass: Specialist\Feedback\Models\Channel
+
+# Default redirect location
+defaultRedirect: specialist/feedback/channels
+
+# Create page
+create:
+    title: specialist.feedback::lang.channel.action.create
+    redirect: specialist/feedback/channels/update/:id
+    redirectClose: specialist/feedback/channels
+
+# Update page
+update:
+    title: specialist.feedback::lang.channel.action.update
+    redirect: specialist/feedback/channels
+    redirectClose: specialist/feedback/channels
+
+# Preview page
+preview:
+    title: specialist.feedback::lang.channel.action.preview

@@ -1,0 +1,12 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    code:
+        label: specialist.feedback::lang.channel.code
+        searchable: true
+
+    name:
+        label: specialist.feedback::lang.channel.name
+        searchable: true

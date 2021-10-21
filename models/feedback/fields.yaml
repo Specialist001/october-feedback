@@ -1,0 +1,18 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+
+    name:
+        label: specialist.feedback::lang.feedback.name
+
+    email:
+        label: specialist.feedback::lang.feedback.email
+
+    message:
+        label: specialist.feedback::lang.feedback.message
+        type: textarea
