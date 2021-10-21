@@ -1,5 +1,6 @@
 {
     "name": "specialist/october-feedback",
+    "type": "october-plugin",
     "license": "MIT",
     "authors": [
         {
